@@ -26,7 +26,7 @@ Please provide a PR if you are interested in helping me with any of these. Other
 
 - Why not rollup, like what Studio uses?
 
-> I'm honestly more familiar with gulp and I like how versitale it is. The theory is that shouldn't introduce issues with Studio's build system. I'd be very interested to see a Rollup or Webpack version targeted at Fitbit Studio projects.
+> I'm honestly more familiar with gulp and I like how versatile it is. The theory is that shouldn't introduce issues with Studio's build system. I'd be very interested to see a Rollup or Webpack version targeted at Fitbit Studio projects.
 
 - This has nothing to do with Fitbit OS, this is just a couple gulp tasks!
 
