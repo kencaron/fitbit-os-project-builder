@@ -1,0 +1,17 @@
+{
+  "name": "fitbit-os-project-builder",
+  "version": "1.0.0",
+  "description": "Simple gulp toolchain to minify files on the wearable. Does not yet target the companion app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ken Caron",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^1.0.2"
+  }
+}

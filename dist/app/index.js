@@ -1,0 +1,1 @@
+function myCrazyLongFunctionName(){return"foobar"}console.log("App Started");
