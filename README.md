@@ -9,7 +9,10 @@ Currently Fitbit Studio does not provide a local toolchain or a way to minify fi
 - `gulp`
 
 ##Usage
-- Extract your project from [Studio](https://studio.fitbit.com/) and drop the contents of it into an empty `src`. The provided `src` was just taken from the "Minimal" Studio project template.
+- Extract your project from [Studio](https://studio.fitbit.com/)
+- Drop the contents of it into an empty `src`.The provided `src` was just taken from the "Minimal" Studio project template.
+- Run `gulp`
+- Drag the contents of `dist` into your project. I recommend you do this in a new empty project to keep your source files safe and readable.
 
 ##Roadmap
 Please provide a PR if you are interested in helping me with any of these. Otherwise I may get to these when I feel like it
