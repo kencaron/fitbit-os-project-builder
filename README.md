@@ -1,7 +1,7 @@
 # Fitbit OS Project Builder #
 
 ## Why? ##
-Currently Fitbit Studio does not provide a local toolchain or a way to minify files. This allows us to free up some memory inside the `app` directory. If this helps you relieve some memory pressure than it is doing it's job.
+Currently Fitbit Studio does not provide a local toolchain or a way to minify files. This allows us to free up some memory inside the `app` directory. If this helps you relieve some memory pressure then it is doing it's job.
 
 ## Install ##
 - `npm i`
