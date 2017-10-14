@@ -1,6 +1,9 @@
 const del = require('del');
 const gulp = require('gulp');
-const uglify = require('gulp-uglify');
+const uglifyEs = require('uglify-es');
+const composer = require('gulp-uglify/composer');
+const pump = require('pump');
+
 
 gulp.task('default', ['compress']);
 
@@ -14,9 +17,16 @@ gulp.task('copy', ['clean'], ()=> {
     .pipe( gulp.dest('dist') );
 });
 
-gulp.task('compress', ['copy'], (cb)=> {
-  return gulp
-    .src('dist/app/**/*.js', {base: 'dist'})
-    .pipe(uglify())
-    .pipe(gulp.dest('dist'));
+const minify = composer(uglifyEs, console);
+
+gulp.task('compress', ['copy'], function (cb) {
+  const options = {};
+
+  pump([
+        gulp.src('dist/app/**/*.js', {base: 'dist'}),
+        minify(options),
+        gulp.dest('dist')
+    ],
+    cb
+  );
 });
