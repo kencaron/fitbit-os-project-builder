@@ -1,3 +1,6 @@
+# Probably don't bother until I can figure it out #
+This seems to be a failed experiment at least for now. Initial tests against `memory.js` and `memory.total` have not shown significant improvements to my personal project. I will continue to research ways to improve performance and welcome any PRs.
+
 # Fitbit OS Project Builder #
 
 ## Why? ##
